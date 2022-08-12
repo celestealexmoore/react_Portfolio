@@ -1,0 +1,22 @@
+.openingParallax {
+  background-image: url("../photos/opening-pic.png");
+  /* min-height: 500px; */
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeMessage {
+  background-color: rgb(151, 138, 122);
+  color: white;
+  opacity: 0.8;
+  padding: 15px;
+  font-family: 'Aboreto', cursive;
+  font-size: 50px;
+
+}

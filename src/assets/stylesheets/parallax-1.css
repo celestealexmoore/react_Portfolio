@@ -1,0 +1,11 @@
+.parallax-1-parent {
+  background-image: url("../photos/body-photo-1.png");
+  min-height: 650px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

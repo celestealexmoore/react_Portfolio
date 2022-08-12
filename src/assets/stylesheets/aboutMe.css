@@ -1,0 +1,22 @@
+.aboutMeParent {
+  padding: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  color: gray;
+  background-color: rgb(250, 244, 236);
+}
+
+.aboutMeTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+.aboutMeBody {
+  width: 80%;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 22px;
+}
