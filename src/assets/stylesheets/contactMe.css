@@ -1,0 +1,49 @@
+.contactParent {
+  height: 150px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding: 25px 0;
+  background-color: rgb(250, 244, 236);
+}
+
+.contactTitle {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Aboreto", cursive;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contactLinkWrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.icon {
+  width: 50px;
+}
+
+.icon:hover {
+border-bottom: 1px solid rgb(205, 186, 162);
+padding-bottom: 4px;
+}
+
+.contactUl a,
+.contactUl p {
+  margin-top: 20px;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 22px;
+}
+
+.contactIconLinks a {
+  margin-left: 20px;
+}
+
+.contactUl a:hover {
+  text-decoration: underline;
+}

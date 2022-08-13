@@ -1,9 +1,10 @@
 .projectsParent {
-    padding: 15px;
+  padding: 15px;
+  background-color: rgb(250, 244, 236, .8);
 }
 
 .projectsTitle {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   letter-spacing: 2px;
   font-family: "Aboreto", cursive;
@@ -21,13 +22,18 @@
   flex-flow: column nowrap;
   align-items: center;
   width: fit-content;
-  background-color: rgb(235, 234, 234);
   padding: 10px;
+  background-color: rgb(212, 206, 198, .8);
+  color: white;
+  margin: 15px 0;
+}
+
+.chatWidget img{
+  height: 300px;
+  width: auto;
 }
 
 .projectTitle {
-  /* font-family: "Aboreto", cursive;
-  font-size: 24px; */
   font-family: "Darker Grotesque", sans-serif;
   font-size: 30px;
 }
@@ -43,7 +49,7 @@
   width: fit-content;
   border: none;
   border-radius: 25px;
-  box-shadow: 0px 3px 15px #4b494b;
+  box-shadow: 0px 3px 15px #8c8a8c;
   padding: 5px;
   margin-top: 2px;
   font-size: 20px;

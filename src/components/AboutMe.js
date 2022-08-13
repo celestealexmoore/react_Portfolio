@@ -4,6 +4,9 @@ export default function Opening() {
   return (
     <div className="aboutMeParent">
       <div className="aboutMeTitle">
+        I am
+        <br/>
+        <br/>
         Vibrant and Vivacious | Empathetic and Altruistic
       </div>
 
@@ -19,7 +22,7 @@ export default function Opening() {
         <br />
         If I'm not coding, you can find me loudly laughing, cooking to end world
         hunger, supporting small businesses, clanking margarita glasses with my
-        husband, or chasing my one-year-old. And sometimes all of the above,
+        husband, or chasing my two-year-old. And sometimes all of the above,
         simultaneously.
         <br />
         <br />

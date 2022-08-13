@@ -10,7 +10,6 @@ import aggretsukos from "../assets/photos/projects/aggretsukos.png";
 export default function Projects() {
   return (
     <div className="projectsParent">
-
       <div className="projectsTitle">Featured Projects</div>
 
       <div className="indProjectsParent">
@@ -26,11 +25,11 @@ export default function Projects() {
             />
 
             <div>
-              <button className="siteBtn">Visit Website</button>
+              <button className="siteBtn">View Repo</button>
             </div>
           </div>
         </a>
-
+        {/* 
         <a href="#" className="projectLink">
           <div className="indProject">
             <div className="projectTitle">Foodly</div>
@@ -43,11 +42,10 @@ export default function Projects() {
             />
 
             <div>
-              <button className="siteBtn">Visit Website</button>
+              <button className="siteBtn">View Repo</button>
             </div>
           </div>
-        </a>
-
+        </a> */}
 
         <a href="#" className="projectLink">
           <div className="indProject">
@@ -61,7 +59,7 @@ export default function Projects() {
             />
 
             <div>
-              <button className="siteBtn">Visit Website</button>
+              <button className="siteBtn">View Repo</button>
             </div>
           </div>
         </a>
@@ -78,14 +76,13 @@ export default function Projects() {
             />
 
             <div>
-              <button className="siteBtn">Visit Website</button>
+              <button className="siteBtn">View Repo</button>
             </div>
           </div>
         </a>
 
-
         <a href="#" className="projectLink">
-          <div className="indProject">
+          <div className="indProject chatWidget">
             <div className="projectTitle">Chat Widget</div>
 
             <img
@@ -100,27 +97,7 @@ export default function Projects() {
             </div>
           </div>
         </a>
-
-        <a href="#" className="projectLink">
-          <div className="indProject">
-            <div className="projectTitle">Aggretsukos Karaoke</div>
-
-            <img
-              className="projectImg"
-              src={aggretsukos}
-              alt="Link to Two Moore Books Website"
-              title="Image of Linked Website"
-            />
-
-            <div>
-              <button className="siteBtn">Visit Website</button>
-            </div>
-          </div>
-        </a>
-
-
       </div>
-
     </div>
   );
 }
