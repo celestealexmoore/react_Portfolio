@@ -1,6 +1,6 @@
 .projectsParent {
   padding: 15px;
-  background-color: rgb(250, 244, 236, .8);
+  background-color: rgb(250, 244, 236, 0.8);
 }
 
 .projectsTitle {
@@ -8,6 +8,7 @@
   text-align: center;
   letter-spacing: 2px;
   font-family: "Aboreto", cursive;
+  color: rgb(90, 85, 85);
 }
 
 .indProjectsParent {
@@ -23,12 +24,12 @@
   align-items: center;
   width: fit-content;
   padding: 10px;
-  background-color: rgb(212, 206, 198, .8);
+  background-color: rgb(212, 206, 198, 0.8);
   color: white;
   margin: 15px 0;
 }
 
-.chatWidget img{
+.chatWidget img {
   height: 300px;
   width: auto;
 }
@@ -36,6 +37,7 @@
 .projectTitle {
   font-family: "Darker Grotesque", sans-serif;
   font-size: 30px;
+  color: rgb(90, 85, 85);
 }
 
 .projectImg {
@@ -44,14 +46,17 @@
   border: 1px solid rgb(154, 154, 154);
 }
 
-.siteBtn {
-  position: relative;
-  width: fit-content;
-  border: none;
-  border-radius: 25px;
-  box-shadow: 0px 3px 15px #8c8a8c;
-  padding: 5px;
-  margin-top: 2px;
-  font-size: 20px;
-  font-family: "Darker Grotesque", sans-serif;
+.externalLinkIcons {
+  margin-top: 10px;
+}
+
+.externalLinkIcons a i {
+  margin: 0 10px;
+  font-size: 25px;
+  color: rgb(90, 85, 85);
+}
+
+.githubLink:hover,
+.homeLink:hover {
+  border-bottom: 1px solid rgb(90, 85, 85);
 }

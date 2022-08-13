@@ -1,3 +1,23 @@
+.contactSvg {
+  position: relative;
+  margin-top: -100px;
+  z-index: 0;
+}
+
+.backToTopIcon {
+  position: absolute;
+  margin-top: -25px;
+  font-size: 20px;
+}
+
+.backToTopIcon i {
+  color: rgb(83, 77, 68);
+}
+
+.backToTopIcon i:hover {
+  color: rgb(205, 186, 162);
+}
+
 .contactParent {
   height: 150px;
   display: flex;
@@ -5,15 +25,17 @@
   align-items: center;
   padding: 25px 0;
   background-color: rgb(250, 244, 236);
+  margin-top: -80px;
 }
 
 .contactTitle {
-  font-size: 20px;
-  font-weight: bold;
+  font-size: 30px;
   font-family: "Aboreto", cursive;
   letter-spacing: 2px;
   margin-bottom: 30px;
   text-align: center;
+  z-index: 1;
+  color: rgb(90, 85, 85);
 }
 
 .contactLinkWrapper {
@@ -25,12 +47,13 @@
 }
 
 .icon {
-  width: 50px;
+  font-size: 45px;
+  color: rgb(130, 120, 106);
 }
 
 .icon:hover {
-border-bottom: 1px solid rgb(205, 186, 162);
-padding-bottom: 4px;
+  border-bottom: 2px solid rgb(205, 186, 162);
+  padding-bottom: 4px;
 }
 
 .contactUl a,
@@ -38,6 +61,7 @@ padding-bottom: 4px;
   margin-top: 20px;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
+  color: rgb(83, 77, 68);
 }
 
 .contactIconLinks a {

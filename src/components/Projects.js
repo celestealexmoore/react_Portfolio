@@ -13,7 +13,7 @@ export default function Projects() {
       <div className="projectsTitle">Featured Projects</div>
 
       <div className="indProjectsParent">
-        <a href="#" className="projectLink">
+        <div className="projectLink">
           <div className="indProject">
             <div className="projectTitle">Two Moore Books</div>
 
@@ -24,11 +24,16 @@ export default function Projects() {
               title="Image of Linked Website"
             />
 
-            <div>
-              <button className="siteBtn">View Repo</button>
+            <div className="externalLinkIcons">
+              <a href="#" className="githubLink">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="#" className="homeLink">
+                <i className="bi bi-house-door"></i>
+              </a>
             </div>
           </div>
-        </a>
+        </div>
         {/* 
         <a href="#" className="projectLink">
           <div className="indProject">
@@ -47,7 +52,7 @@ export default function Projects() {
           </div>
         </a> */}
 
-        <a href="#" className="projectLink">
+        <div className="projectLink">
           <div className="indProject">
             <div className="projectTitle">Scissors Palace</div>
 
@@ -58,13 +63,18 @@ export default function Projects() {
               title="Image of Linked Website"
             />
 
-            <div>
-              <button className="siteBtn">View Repo</button>
+            <div className="externalLinkIcons">
+              <a href="#" className="githubLink">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="#" className="homeLink">
+                <i className="bi bi-house-door"></i>
+              </a>
             </div>
           </div>
-        </a>
+        </div>
 
-        <a href="#" className="projectLink">
+        <div className="projectLink">
           <div className="indProject">
             <div className="projectTitle">Instagram Clone</div>
 
@@ -75,13 +85,18 @@ export default function Projects() {
               title="Image of Linked Website"
             />
 
-            <div>
-              <button className="siteBtn">View Repo</button>
+            <div className="externalLinkIcons">
+              <a href="#" className="githubLink">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="#" className="homeLink">
+                <i className="bi bi-house-door"></i>
+              </a>
             </div>
           </div>
-        </a>
+        </div>
 
-        <a href="#" className="projectLink">
+        <div className="projectLink">
           <div className="indProject chatWidget">
             <div className="projectTitle">Chat Widget</div>
 
@@ -92,11 +107,16 @@ export default function Projects() {
               title="Image of Linked Website"
             />
 
-            <div>
-              <button className="siteBtn">Visit Website</button>
+            <div className="externalLinkIcons">
+              <a href="#" className="githubLink">
+                <i className="bi bi-github"></i>
+              </a>
+              <a href="#" className="homeLink">
+                <i className="bi bi-house-door"></i>
+              </a>
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   );

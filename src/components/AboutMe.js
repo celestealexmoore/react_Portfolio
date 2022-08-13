@@ -6,8 +6,7 @@ export default function Opening() {
       <div className="aboutMeTitle">
         I am
         <br/>
-        <br/>
-        Vibrant and Vivacious | Empathetic and Altruistic
+        <span>Vibrant and Vivacious | Empathetic and Altruistic</span>
       </div>
 
       <div className="aboutMeBody">

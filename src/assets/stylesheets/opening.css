@@ -11,10 +11,17 @@
 }
 
 .welcomeMessage {
+  text-align: center;
   background-color: rgb(151, 138, 122);
   color: white;
   opacity: 0.8;
   padding: 15px;
-  font-family: 'Aboreto', cursive;
+  font-family: "Aboreto", cursive;
   font-size: 50px;
+}
+
+.subtitle {
+  margin-top: 15px;
+  color: white;
+  font-size: 20px;
 }

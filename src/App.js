@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./assets/stylesheets/index.css";
+import "bootstrap-icons/font/bootstrap-icons.css"
 import Opening from "./components/Opening";
 import AboutMe from "./components/AboutMe";
 import Parallax1 from "./components/Parallax-1";

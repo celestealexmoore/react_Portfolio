@@ -8,16 +8,23 @@
 }
 
 .aboutMeTitle {
-  font-size: 20px;
-  font-weight: bold;
-  font-family: "Aboreto", cursive;
-  letter-spacing: 2px;
-  margin-bottom: 30px;
+  font-size: 35px;
   text-align: center;
+  letter-spacing: 2px;
+  font-family: "Aboreto", cursive;
+  margin-bottom: 30px;
+  color: rgb(90, 85, 85);
+}
+
+.aboutMeTitle span {
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(90, 85, 85);
 }
 
 .aboutMeBody {
   width: 80%;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
+  color: rgb(90, 85, 85);
 }

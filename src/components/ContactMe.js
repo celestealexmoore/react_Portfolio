@@ -1,46 +1,44 @@
-import github from "../assets/photos/logos/github.png";
-import mailTo from "../assets/photos/logos/mailTo.png";
-import linkedIn from "../assets/photos/logos/linkedIn.png";
 import "../assets/stylesheets/contactMe.css";
 import resume from "../assets/pdf/celesteMoore-resume.pdf";
 
 export default function Contact() {
   return (
     <div className="contactParent">
+      <svg
+        className="contactSvg"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 1440 320"
+      >
+        <path
+          fill="#faf4ec"
+          fillOpacity="1"
+          d="M0,192L720,160L1440,192L1440,320L720,320L0,320Z"
+        ></path>
+      </svg>
+
+      <a href="#" className="backToTopIcon">
+        <i className="bi bi-chevron-double-up"></i>
+      </a>
+
       <div className="contactTitle">Contact Me</div>
 
       <div className="contactLinkWrapper">
-        <div className="contactUl">
+        <ul className="contactUl">
           <a className="downloadLink" href={resume} download>
             Download My Resume
           </a>
           <p>© 2021 celestealexmoore</p>
-        </div>
+        </ul>
 
         <div className="contactIconLinks">
           <a href="mailto:celestealexmoore@gmail.com">
-            <img
-              className="icon"
-              src={mailTo}
-              alt="Email Icon"
-              title="Email"
-            ></img>
+          <i className="bi bi-envelope icon"></i>
           </a>
           <a href="https://www.linkedin.com/in/celeste-moore-22a036204/">
-            <img
-              className="icon"
-              src={linkedIn}
-              alt="LinkedIn Icon"
-              title="Link to LinkedIn"
-            ></img>
+          <i className="bi bi-linkedin icon"></i>
           </a>
           <a href="https://github.com/celestealexmoore/">
-            <img
-              className="icon"
-              src={github}
-              alt="Github Icon"
-              title="Link to Github"
-            ></img>
+          <i className="bi bi-github icon"></i>
           </a>
         </div>
       </div>
