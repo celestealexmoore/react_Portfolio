@@ -25,7 +25,7 @@
 
 ## Media
 
-![Photo 1](./assets/photos/screen-shot-website.png)
+![Photo 1](./src/assets/photos/website-shot.png)
 
 ## Deployed Site
 
