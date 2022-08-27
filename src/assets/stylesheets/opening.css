@@ -12,16 +12,32 @@
 
 .welcomeMessage {
   text-align: center;
-  background-color: rgb(151, 138, 122);
+  background-color: var(--tan);
   color: white;
   opacity: 0.8;
   padding: 15px;
-  font-family: "Aboreto", cursive;
-  font-size: 50px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 70px;
 }
 
-.subtitle {
+.subtitle, .typeWriter {
   margin-top: 15px;
   color: white;
+  font-size: 28px;
+}
+
+.downArrow {
+  position: absolute;
+  margin-top: calc(50% - 60px);
+  background-color: var(--light-cream);
+  color: var(--dark-tan);
+  padding: 10px;
   font-size: 20px;
+  animation: bounce 1s ease infinite;
+}
+
+@keyframes bounce {
+  100% {
+    transform: translateY(15px);
+  }
 }

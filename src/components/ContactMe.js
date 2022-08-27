@@ -27,7 +27,7 @@ export default function Contact() {
           <a className="downloadLink" href={resume} download>
             Download My Resume
           </a>
-          <p>© 2021 celestealexmoore</p>
+          <p>© 2022 celestealexmoore</p>
         </ul>
 
         <div className="contactIconLinks">

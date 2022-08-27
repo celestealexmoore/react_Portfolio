@@ -26,7 +26,7 @@ export default function Opening() {
         <br />
         <br />
         Frontend Skills: JavaScript | HTML | CSS | React.js | Tailwind |
-        Bootstrap | TypeScript | Angular
+        Bootstrap | Angular
         <br />
         Backend Skills: Node.js | Express.js | MongoDB | MySQL | Firebase
         <br />

@@ -25,12 +25,15 @@ export default function Projects() {
             />
 
             <div className="externalLinkIcons">
-              <a href="#" className="githubLink">
+              <a
+                href="https://github.com/celestealexmoore/e-book"
+                className="githubLink"
+              >
                 <i className="bi bi-github"></i>
               </a>
-              <a href="#" className="homeLink">
+              {/*   <a href="#" className="homeLink">
                 <i className="bi bi-house-door"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -64,10 +67,16 @@ export default function Projects() {
             />
 
             <div className="externalLinkIcons">
-              <a href="#" className="githubLink">
+              <a
+                href="https://github.com/ferick8246/Scissors-Palace"
+                className="githubLink"
+              >
                 <i className="bi bi-github"></i>
               </a>
-              <a href="#" className="homeLink">
+              <a
+                href="https://scissors-palace.herokuapp.com/"
+                className="homeLink"
+              >
                 <i className="bi bi-house-door"></i>
               </a>
             </div>
@@ -86,12 +95,15 @@ export default function Projects() {
             />
 
             <div className="externalLinkIcons">
-              <a href="#" className="githubLink">
+              <a
+                href="https://github.com/celestealexmoore/instagram_Clone"
+                className="githubLink"
+              >
                 <i className="bi bi-github"></i>
               </a>
-              <a href="#" className="homeLink">
+              {/*   <a href="#" className="homeLink">
                 <i className="bi bi-house-door"></i>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -108,10 +120,16 @@ export default function Projects() {
             />
 
             <div className="externalLinkIcons">
-              <a href="#" className="githubLink">
+              <a
+                href="https://github.com/celestealexmoore/chatWidget"
+                className="githubLink"
+              >
                 <i className="bi bi-github"></i>
               </a>
-              <a href="#" className="homeLink">
+              <a
+                href="https://celestealexmoore.github.io/chatWidget/"
+                className="homeLink"
+              >
                 <i className="bi bi-house-door"></i>
               </a>
             </div>

@@ -4,7 +4,7 @@
   flex-flow: column nowrap;
   align-items: center;
   color: gray;
-  background-color: rgb(250, 244, 236);
+  background-color: var(--light-cream);
 }
 
 .aboutMeTitle {
@@ -13,18 +13,18 @@
   letter-spacing: 2px;
   font-family: "Aboreto", cursive;
   margin-bottom: 30px;
-  color: rgb(90, 85, 85);
+  color: var(--dark-gray);
 }
 
 .aboutMeTitle span {
   font-size: 18px;
   font-weight: bold;
-  color: rgb(90, 85, 85);
+  color: var(--dark-gray);
 }
 
 .aboutMeBody {
   width: 80%;
   font-family: "Darker Grotesque", sans-serif;
   font-size: 22px;
-  color: rgb(90, 85, 85);
+  color: var(--dark-gray);
 }
