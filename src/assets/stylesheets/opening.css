@@ -1,13 +1,13 @@
 .openingParallax {
   background-image: url("../photos/body-photo-1.png");
-  height: 100vh;
+  height: 90vh;
   background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 80% 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .welcomeMessage {
@@ -16,17 +16,18 @@
   color: white;
   opacity: 0.8;
   padding: 15px;
-  font-family: 'Red Hat Display', sans-serif;
-  font-size: 70px;
+  font-family: "Red Hat Display", sans-serif;
+  width: 100%;
+  font-size: 30px;
 }
 
-.subtitle, .typeWriter {
+.subtitle {
   margin-top: 15px;
   color: white;
-  font-size: 28px;
+  font-size: 18px;
 }
 
-.downArrow {
+/* .downArrow {
   position: absolute;
   margin-top: calc(50% - 60px);
   background-color: var(--light-cream);
@@ -34,10 +35,58 @@
   padding: 10px;
   font-size: 20px;
   animation: bounce 1s ease infinite;
-}
+} */
 
 @keyframes bounce {
   100% {
     transform: translateY(15px);
+  }
+}
+
+@media only screen and (min-width: 320px) {
+  .downArrow {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  .openingParallax {
+    background-image: url("../photos/body-photo-1.png");
+    height: 100vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .downArrow {
+    display: block;
+    margin-top: calc(100% - 75px);
+  }
+
+  .welcomeMessage {
+    text-align: center;
+    opacity: 0.8;
+    padding: 15px;
+    font-size: 30px;
+    position: absolute;
+    margin-left: -40%;
+  }
+
+  .welcomeMessage {
+    width: fit-content;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .welcomeMessage {
+    font-size: 70px;
+  }
+
+  .subtitle {
+    font-size: 28px;
   }
 }

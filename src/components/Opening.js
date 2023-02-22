@@ -2,11 +2,11 @@ import "../assets/stylesheets/opening.css";
 import Typewriter from "typewriter-effect";
 
 export default function Opening() {
-  let downArrow = document.getElementById("downArrow");
+  // let downArrow = document.getElementById("downArrow");
 
-  const handleScroll = (e) => {
-    downArrow.remove();
-  };
+  // const handleScroll = (e) => {
+  //   downArrow.remove();
+  // };
 
   return (
     <div className="openingParallax">
@@ -24,11 +24,11 @@ export default function Opening() {
         </div>
       </div>
 
-      <i
+      {/* <i
         onScroll={handleScroll}
         id="downArrow"
         className="bi bi-chevron-double-down downArrow"
-      ></i>
+      ></i> */}
     </div>
   );
 }

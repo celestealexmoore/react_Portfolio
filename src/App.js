@@ -6,7 +6,7 @@ import Opening from "./components/Opening";
 import AboutMe from "./components/AboutMe";
 import Parallax1 from "./components/Parallax-1";
 import Projects from "./components/Projects";
-import Carousel from "./components/Carousel";
+// import Carousel from "./components/Carousel";
 import ContactMe from "./components/ContactMe";
 import Closing from "./components/Closing";
 AOS.init();
@@ -17,8 +17,8 @@ function App() {
       <Opening />
       <AboutMe />
       <Parallax1 />
-      <Carousel />
-      {/* <Projects /> */}
+      {/* <Carousel /> */}
+      <Projects />
       <Closing />
       <ContactMe />
     </div>

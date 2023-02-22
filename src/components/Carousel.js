@@ -1,4 +1,4 @@
-import { Component, useState } from "react";
+import { useState } from "react";
 import Slider from "react-slick";
 import "../assets/stylesheets/projects.css";
 import twoBooks from "../assets/photos/projects/two-moore-books.png";
@@ -13,17 +13,31 @@ const images = [
   twoBooks,
   scissorsPalace,
   chatWidget,
-  calculator,
   foodly,
   instagramClone,
   aggretsukos,
+  calculator,
 ];
+
+const titles = [
+  "Two Moore Books",
+  "Scissors Palace",
+  "Chat Widget",
+  "Foodly",
+  "Instagram Clone",
+  "Aggretsukos Karaoke",
+  "React Calculator",
+];
+
+// for (let i = 0; i < titles.length; i++) {
+//   <div className="projectTitle">{titles[i]}</div>;
+// }
 
 export default function Carousel() {
   const NextArrow = ({ onClick }) => {
     return (
       <div className="arrow next" onClick={onClick}>
-        <i class="bi bi-arrow-right"></i>
+        <i className="bi bi-arrow-right"></i>
       </div>
     );
   };
@@ -31,7 +45,7 @@ export default function Carousel() {
   const PrevArrow = ({ onClick }) => {
     return (
       <div className="arrow prev" onClick={onClick}>
-        <i class="bi bi-arrow-left"></i>
+        <i className="bi bi-arrow-left"></i>
       </div>
     );
   };
@@ -48,7 +62,6 @@ export default function Carousel() {
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
     beforeChange: (current, next) => setImageIndex(next),
-    // slidesToScroll: 1,
   };
 
   return (
@@ -56,14 +69,35 @@ export default function Carousel() {
       <h2 className="projectsTitle">Featured Projects</h2>
       <div className="sliderDiv">
         <Slider {...settings}>
-          {images.map((img, idx) => (
-            <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>
-              <img
-                className="projectImg"
-                src={img}
-                alt={img}
-                // title="Image of Linked Website"
-              />
+          {images.map((img, i) => (
+            <div
+              key={i}
+              className={i === imageIndex ? "slide activeSlide" : "slide"}
+            >
+              {/* {titles.map(function(title, i) {
+                return <div key={i} className="projectTitle">{title}</div>
+              })} */}
+
+
+              <div className="projectLink">
+                <div className="indProject">
+                  <img
+                    className="projectImg"
+                    src={img}
+                    alt={img}
+                    title="Image of Linked Website"
+                  />
+
+                  <div className="externalLinkIcons">
+                    <a
+                      href="https://github.com/celestealexmoore/e-book"
+                      className="githubLink"
+                    >
+                      <i className="bi bi-github"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
             </div>
           ))}
         </Slider>
