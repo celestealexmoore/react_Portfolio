@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/react_Portfolio/static/css/main.246415aa.css",
+    "main.js": "/react_Portfolio/static/js/main.84883bca.js",
+    "static/media/opening-pic.png": "/react_Portfolio/static/media/opening-pic.987c30f3beb711a90fa4.png",
+    "static/media/scissors-palace.png": "/react_Portfolio/static/media/scissors-palace.a7eef3b3d6086067b1b3.png",
+    "static/media/body-photo-1.png": "/react_Portfolio/static/media/body-photo-1.4f5c83252943bbd48ca7.png",
+    "static/media/footer-pic.png": "/react_Portfolio/static/media/footer-pic.0d58b6ac32fc0081f787.png",
+    "static/media/foodly.png": "/react_Portfolio/static/media/foodly.bf67dbfa6d21813df36f.png",
+    "static/media/two-moore-books.png": "/react_Portfolio/static/media/two-moore-books.901a8711cba7e54a830b.png",
+    "static/media/accessible.png": "/react_Portfolio/static/media/accessible.05af0cc304f7707f7464.png",
+    "static/media/bootstrap-icons.woff?": "/react_Portfolio/static/media/bootstrap-icons.e559bf06bc84fd9525e6.woff",
+    "static/media/bootstrap-icons.woff2?": "/react_Portfolio/static/media/bootstrap-icons.ea98e12d2d58747f9fc5.woff2",
+    "static/media/js-quiz-1.png": "/react_Portfolio/static/media/js-quiz-1.a7e34351a44906391b87.png",
+    "static/media/password-generator.png": "/react_Portfolio/static/media/password-generator.f560f651bd24949ec06e.png",
+    "static/media/celesteMoore-resume.pdf": "/react_Portfolio/static/media/celesteMoore-resume.b1ebac3624e8fe9ddbd7.pdf",
+    "static/media/chat-widget.png": "/react_Portfolio/static/media/chat-widget.8f5db6be716113155a61.png",
+    "static/media/react-calculator.png": "/react_Portfolio/static/media/react-calculator.05db83e21fc34a48f3df.png",
+    "static/media/intuitive.png": "/react_Portfolio/static/media/intuitive.d65dc1c7bde65446a100.png",
+    "static/media/creative.png": "/react_Portfolio/static/media/creative.f8eb07a8c47f04a7cf53.png",
+    "static/media/responsive.png": "/react_Portfolio/static/media/responsive.d7b5d8b53ad1763e483e.png",
+    "index.html": "/react_Portfolio/index.html",
+    "main.246415aa.css.map": "/react_Portfolio/static/css/main.246415aa.css.map",
+    "main.84883bca.js.map": "/react_Portfolio/static/js/main.84883bca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.246415aa.css",
+    "static/js/main.84883bca.js"
+  ]
+}
