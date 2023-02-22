@@ -25,7 +25,11 @@
 
 ## Media
 
-![Photo 1](./src/assets/photos/website-shot.png)
+On Desktop:  
+![Photo 1](./src/assets/photos/website-shot.png)  
+
+On Mobile:  
+![Photo 1](./src/assets/photos/website-shot.png)  
 
 ## Deployed Site
 
@@ -47,7 +51,7 @@ celestealexmoore@gmail.com.
 
 ## Project Status
 
-Completed
+Completed, Ongoing Updates Will be Made
 
 ---
 
