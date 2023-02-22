@@ -29,7 +29,7 @@ On Desktop:
 ![Photo 1](./src/assets/photos/website-shot.png)  
 
 On Mobile:  
-![Photo 1](./src/assets/photos/website-shot-1.png)  
+![Photo 1](./src/assets/photos/website-shot-2.png)  
 
 ## Deployed Site
 
