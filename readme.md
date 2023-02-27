@@ -24,12 +24,9 @@
 - [License](#License)
 
 ## Media
-
-On Desktop:  
-![Photo 1](./src/assets/photos/website-shot.png)  
-
-On Mobile:  
-![Photo 1](./src/assets/photos/website-shot-2.png)  
+ 
+![Photo 1](./src/assets/videos/portfolio.gif)  
+ 
 
 ## Deployed Site
 
