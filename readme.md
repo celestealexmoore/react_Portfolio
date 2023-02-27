@@ -33,7 +33,7 @@ On Mobile:
 
 ## Deployed Site
 
-   The new link is coming soon. In the meantime, view my current portfolio: (https://celestealexmoore.github.io/Celeste-Moore-Portfolio/)
+   The new link is coming soon. In the meantime, view my current portfolio: (https://celestealexmoore.github.io/react_Portfolio/)
 
 ## Features
     - Single-page application
